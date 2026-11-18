@@ -1,0 +1,13 @@
+{
+  "name": "a09-demo",
+  "version": "1.0.0",
+  "description": "Demo OWASP A09:2025 - Security Logging and Alerting Failures (laboratorio, datos ficticios)",
+  "scripts": {
+    "vulnerable": "node vulnerable/server.js",
+    "fixed": "node fixed/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pino": "^9.5.0"
+  }
+}
